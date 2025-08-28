@@ -1,6 +1,12 @@
 # CineGraphRAG-MCP-Agent
 A ReAct-driven MCP Agent that performs GraphRAG over Neo4j for movie discovery. Translates natural language to Cypher, retrieves subgraphs, and generates explainable recommendations with provenance.
 
+## Neo4j Movie Directory Graph
+<img width="1506" height="763" alt="Screenshot 2025-08-28 at 1 39 02 AM" src="https://github.com/user-attachments/assets/775f621a-335b-4520-a8b4-7552493b8bb1" />
+
+## A quick overview of how this works
+<img width="1512" height="593" alt="Screenshot 2025-08-28 at 1 27 17 AM" src="https://github.com/user-attachments/assets/ee0d2f82-2175-4815-bc5e-f09903cc2ab4" />
+
 This repo provides a simple example of how to build a ReAct agent with MCP and local tools. 
 
 Specifically this repo builds a [Text2Cypher](https://graphrag.com/reference/graphrag/text2cypher/) ReAct agent with the [Neo4j Cypher MCP Server](https://github.com/neo4j-contrib/mcp-neo4j/tree/main/servers/mcp-neo4j-cypher). The agent also has extended capabilities by exposing local tools for it to use.
